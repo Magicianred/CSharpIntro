@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project4.DataAccess\Project4.DataAccess.csproj" />
+    <ProjectReference Include="..\Project4.Entities\Project4.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
